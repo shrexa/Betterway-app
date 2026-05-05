@@ -11,15 +11,15 @@ export default function Index() {
     <ThemeProvider theme={theme}>
       <Box flex={1} backgroundColor="background" padding="m" justifyContent="center">
 
-        {/* TITLE */}
+      
         <Text style={{ fontSize: 20, fontWeight: "bold", marginBottom: 20 }}>
           Where are you noticing hair loss?
         </Text>
 
-        {/* CARDS WRAPPER */}
+       
         <Box flexDirection={{ phone: "column", tablet: "row" }} gap="m">
 
-          {/* CARD 1 */}
+        
           <Box flex={1} backgroundColor="card" padding="m" borderRadius={12}>
             <Image
               source={require("../assets/hairs2.png")}
@@ -29,7 +29,7 @@ export default function Index() {
             <Text style={{ marginTop: 10 }}>Along the hairline</Text>
           </Box>
 
-          {/* CARD 2 */}
+     
           <Box flex={1} backgroundColor="card" padding="m" borderRadius={12}>
             <Image
               source={require("../assets/hairs3.png")}
@@ -39,7 +39,7 @@ export default function Index() {
             <Text style={{ marginTop: 10 }}>At the crown</Text>
           </Box>
 
-          {/* CARD 3 */}
+         
           <Box flex={1} backgroundColor="card" padding="m" borderRadius={12}>
             <Image
               source={require("../assets/hairs2.png")}
